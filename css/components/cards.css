@@ -1,0 +1,116 @@
+/* Your card CSS file */
+.banner {
+  height: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-size: cover;
+}
+
+.banner .container p {
+  margin: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.container {
+  padding: 20px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container h3 {
+  font-size: 13px;
+}
+
+.card-product {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+  width: 300px;
+  margin: 0 auto;
+  height: 70px;
+
+}
+
+.card-product img {
+  object-fit: cover;
+  width: 70px;
+  height: 70px;
+}
+
+.card-product .description {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.card-product p {
+  font-size: 10px;
+  margin-top: 0px;
+  padding-top: 2px;
+}
+
+.card-product h2 {
+  font-size: 14px;
+}
+
+
+.card-trip img {
+  object-fit: cover;
+    width: 500px;
+    height: 200px;
+}
+
+.card-trip {
+  margin: 0 auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+  width: 500px;
+  position: relative;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 15px;
+  height: 50px;
+}
+
+.footer-left p {
+   font-size: 10px;
+   padding-top: 0px;
+   margin-top: 0px;
+}
+
+.footer h2 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer-left h2 {
+  margin-bottom: 0px;
+}
+
+.card-trip .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 175px;
+  border: 1px solid white;
+}
+
+.card-category {
+  vertical-align: middle;
+}
+
